@@ -8,4 +8,8 @@ public class NumberBag {
 		list=new ArrayList<Integer>();
 		maxValue=max;
 	}
+	
+	public void add(int n) {
+		list.add(n);
+	}
 }
